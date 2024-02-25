@@ -1,0 +1,107 @@
+.contain-row-cf {
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  background-color: #333333;
+}
+
+.contact-form {
+  position: relative;
+  flex-grow: 1;
+  padding: 3% 6%;
+  background-color: #f7f4f4;
+}
+
+.contact-form .heading {
+  margin-bottom: 48px;
+}
+
+.contact-form .heading h2 {
+  margin-bottom: 8px;
+  color: #27272a;
+  font-size: 36px;
+}
+
+.contact-form .heading p {
+  color: #4b5563;
+  font-size: 16px;
+}
+
+.contact-form .button {
+  padding: 12px 36px;
+  border: none;
+  border-radius: 4px;
+  background-color: #FDAC01;
+  box-shadow: inset 0 -2px 4px 0 #FDAC01;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form .button:hover {
+  background-color: #fafafa;
+  color: #f15d63;
+  border: 1px solid #333333;
+  box-shadow: none;
+}
+
+.location-cybdeer iframe{
+  border: none;
+  width: 100%;
+  height: 450px;
+}
+
+.contact-info {
+  padding: 7%;
+  color: #e4e4e7;
+}
+
+.contact-info .heading {
+  margin-bottom: 48px;
+  font-size: 24px;
+}
+
+.contact-info .contacts li {
+  /* padding-left: 24px; */
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+
+.contact-info .contacts li i {
+  width: 24px;
+  padding-right: 12px;
+}
+
+.contact-logo {
+  position: relative;
+  padding: 24px 32px 40px 32px;
+}
+
+.social-links {
+  gap: 0.8rem;
+}
+
+.social-links a {
+  background: #FDAC01;
+  padding: 1%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+}
+
+.social-links a:hover {
+  background: transparent;
+  border: 1px solid #FDAC01;
+}
+
+@media screen and (max-width: 1024px) {
+  .contain-row-cf {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .contact-form {
+    padding: 96px 48px;
+  }
+}

@@ -1,0 +1,68 @@
+.footer-section {
+  background-color: #242329;
+  color: white;
+  font-size: 18px;
+  line-height: 35px;
+  z-index: 1;
+}
+
+.all-right-footer {
+  color: #fff300;
+}
+
+.footer-section-second {
+  background-color: #F15D63;
+  color: white;
+  font-size: 17px;
+  z-index: 1;
+  font-weight: 500;
+  line-height: 30px;
+}
+.second-footer-container{
+  background-image: url('./all_images_cybdr/IMAGES_CYBDEER_WEBSITE/line_footer.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.style-for-lineAdjust {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.social-icons {
+  gap: 2.8rem;
+}
+
+.social-icons a{
+  background: #FDAC01;
+  padding: 1%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+}
+
+.social-icons a:hover {
+  background: transparent;
+  border: 1px solid #FDAC01;
+}
+
+/* media query */
+@media only screen and (max-width:1030px) {
+  .social-icons {
+    gap: 15px;
+}
+.style-for-lineAdjust {
+  top: 25px;
+}
+
+}
+
+@media only screen and (max-width:800px) {
+  .style-for-lineAdjust {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    top: 0;
+  }
+}

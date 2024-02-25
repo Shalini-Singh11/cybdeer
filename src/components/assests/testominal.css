@@ -1,0 +1,51 @@
+
+/* our-business-review */
+.section-testominal{
+  background-color: #F5FAF9;
+}
+  .reviews-content h4 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+  }
+  .four-back-review {
+    z-index: 1;
+  }
+  .four-front-review {
+    z-index: 2;
+    height: 340px;
+    gap: 16px;
+    right: 16%;
+  }
+  .review_rectangle {
+    width: 421px;
+    height: 105px;
+    background: #fffbfb;
+    border-radius: 20px;
+  }
+  .review-customer-image img {
+    border-radius: 50%;
+  }
+  .customer-name-reviewStart h5 {
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+  }
+  .customer-name-reviewStart h6 {
+    color: #bcbcbe;
+    font-size: 12px;
+  }
+  .customer-name-reviewStart p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+  }
+  /* media query */
+
+  @media screen and (max-width: 760px) {
+    .contain-all-reviews  {
+      display: none;
+    }
+  }

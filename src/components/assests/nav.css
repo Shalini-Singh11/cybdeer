@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/* ================================== NAVBAR ================================ */
+nav {
+    background: #F5FAF9;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+/* ==========change navbar style on scroll using javascript=============  */
+.window-scroll {
+    background: #F5FAF9;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+/* hover */
+.nav_menu_lists li {
+    border: 2px solid transparent;
+    border-bottom: 3px solid #A8A8A8;
+    margin-right: 0px;
+    padding: 5px 5px;
+    transition: border 0.3s ease;
+}
+.nav_menu_lists li:hover {
+    border-top: 2px solid #A8A8A8;
+    border-left: 2px solid #A8A8A8;
+    border-right: 2px solid #A8A8A8;
+    border-bottom: 2px solid transparent;
+}
+/* hover */
+.nav__main-contain {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav button {
+    display: none;
+}
+.nav_menu_lists {
+    gap: 4rem;
+}
+.nav_menu_lists a {
+    font-weight: 600;
+    font-size: 17px;
+    transition: var(--transition);
+    text-decoration: none;
+    color: black;
+}
+.nav-toggle {
+    display: none;
+}
+.nav_menu_lists a:hover {
+    color: black;
+    cursor: pointer;
+}
+.cybdeer-logo {
+    width: 75%;
+}
+/* ============ media query  navbar =============== */
+@media only screen and (max-width: 700px) {
+    .nav__menus {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        position: fixed;
+        background-color: #36454f;
+    }
+    .nav_menu_lists {
+        height: 100vh;
+        flex-direction: column;
+        row-gap: 4rem;
+    }
+    .nav-toggle {
+        float: right;
+        display: block;
+        z-index: 2;
+        color: #f15d63;
+    }
+    .nav__menus li a {
+        color: #fff;
+        font-weight: 500;
+    }
+    .nav_menu_lists a:hover {
+        color: white;
+    }
+}

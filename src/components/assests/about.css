@@ -1,0 +1,60 @@
+
+.para-aboutus {
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.heading-aboutus {
+    font-weight: 600;
+    font-size: 45px;
+    color: #F15D63;
+}
+/* value vision*/
+.section-value-vision{
+    background-color: #333333;
+}
+/*-----Contact-with-us section-----*/
+.find {
+    background: #F15D63;
+}
+
+.find p {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.find .cta-btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 35px;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.find .cta-btn:hover {
+    background: whitesmoke;
+    color: black;
+    border: 2px solid #F15D63;
+}
+/*-----Our-Mission section-----*/
+.ul-for-mission li {
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.ul-for-mission li span {
+    color: green;
+    font-size: 25px;
+}
+
+.img-holding-hand,
+.img-mission {
+    border-radius: 20px;
+}
+
+.img-holding-hand {
+    right: 31%;
+    margin-bottom: -4%;
+}
