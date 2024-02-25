@@ -78,6 +78,7 @@ export default function home() {
       <section className='aboutusHome_section py-5'>
         <HomeAbout />
       </section>
+      {/* companies */}
       <section className='companies-section py-5'>
         <HomeCompanies />
       </section>
