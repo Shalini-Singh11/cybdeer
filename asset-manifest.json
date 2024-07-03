@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cybdeer/static/css/main.c390dac8.css",
-    "main.js": "/cybdeer/static/js/main.7a0b699e.js",
+    "main.js": "/cybdeer/static/js/main.7a64da1e.js",
     "static/js/787.ea60c757.chunk.js": "/cybdeer/static/js/787.ea60c757.chunk.js",
     "static/media/kalashh.png": "/cybdeer/static/media/kalashh.68de3232098c574f9f53.png",
     "static/media/Kishan_Jakhar.png": "/cybdeer/static/media/Kishan_Jakhar.3903c4e5f6bd058c5e2e.png",
@@ -48,11 +48,11 @@
     "static/media/keyResult_cybdeer.svg": "/cybdeer/static/media/keyResult_cybdeer.01088f069d3c6eb52b4bb0e337dcf243.svg",
     "static/media/Objective_cybdeer.svg": "/cybdeer/static/media/Objective_cybdeer.601290fcb7b869623ced99b0bc36238a.svg",
     "main.c390dac8.css.map": "/cybdeer/static/css/main.c390dac8.css.map",
-    "main.7a0b699e.js.map": "/cybdeer/static/js/main.7a0b699e.js.map",
+    "main.7a64da1e.js.map": "/cybdeer/static/js/main.7a64da1e.js.map",
     "787.ea60c757.chunk.js.map": "/cybdeer/static/js/787.ea60c757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c390dac8.css",
-    "static/js/main.7a0b699e.js"
+    "static/js/main.7a64da1e.js"
   ]
 }
